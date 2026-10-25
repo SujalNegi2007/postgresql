@@ -22,3 +22,10 @@ CREATE TABLE basics.students (
     -- default means if you don't give any value then it will take by default
     created_at TIMESTAMP DEFAULT NOW()
 );
+
+-- Now inserting data into table
+INSERT INTO basics.students (name, email, age)
+VALUES
+('sujal', 'sujal@gmail.com', 20),
+('ravi', 'ravi@gmail.com', 19),
+('sonum', 'sonum@gmail.com', 35);
