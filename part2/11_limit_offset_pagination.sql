@@ -1,0 +1,2 @@
+-- LIMIT -> shows how many rows you want to show
+-- OFFSET -> how many rows we want to skip
